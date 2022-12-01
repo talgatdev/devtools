@@ -191,7 +191,7 @@
     "isomorphic-fetch": "^3.0.0",
     "istanbul-lib-coverage": "^3.2.0",
     "istanbul-lib-report": "^3.0.0",
-    "istanbul-reports": "^3.1.4",
+    "istanbul-reports": "^3.1.5",
     "jest": "^28.0.2",
     "jest-environment-jsdom": "^28.0.2",
     "jest-in-case": "^1.0.2",
