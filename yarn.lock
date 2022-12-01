@@ -1677,12 +1677,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:>=7.11.0, @babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.12.0, @babel/runtime@npm:^7.12.1, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.16.3, @babel/runtime@npm:^7.16.7, @babel/runtime@npm:^7.17.0, @babel/runtime@npm:^7.17.8, @babel/runtime@npm:^7.18.3, @babel/runtime@npm:^7.3.1, @babel/runtime@npm:^7.5.0, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.3, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7, @babel/runtime@npm:^7.9.2":
+"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.12.0, @babel/runtime@npm:^7.12.1, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.16.3, @babel/runtime@npm:^7.16.7, @babel/runtime@npm:^7.17.0, @babel/runtime@npm:^7.17.8, @babel/runtime@npm:^7.18.3, @babel/runtime@npm:^7.3.1, @babel/runtime@npm:^7.5.0, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.3, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7, @babel/runtime@npm:^7.9.2":
   version: 7.18.3
   resolution: "@babel/runtime@npm:7.18.3"
   dependencies:
     regenerator-runtime: ^0.13.4
   checksum: db8526226aa02cfa35a5a7ac1a34b5f303c62a1f000c7db48cb06c6290e616483e5036ab3c4e7a84d0f3be6d4e2148d5fe5cec9564bf955f505c3e764b83d7f1
+  languageName: node
+  linkType: hard
+
+"@babel/runtime@npm:^7.18.6":
+  version: 7.20.6
+  resolution: "@babel/runtime@npm:7.20.6"
+  dependencies:
+    regenerator-runtime: ^0.13.11
+  checksum: 42a8504db21031b1859fbc0f52d698a3d2f5ada9519eb76c6f96a7e657d8d555732a18fe71ef428a67cc9fc81ca0d3562fb7afdc70549c5fec343190cbaa9b03
   languageName: node
   linkType: hard
 
@@ -1790,6 +1799,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@codemirror/commands@npm:^6.1.0":
+  version: 6.1.2
+  resolution: "@codemirror/commands@npm:6.1.2"
+  dependencies:
+    "@codemirror/language": ^6.0.0
+    "@codemirror/state": ^6.0.0
+    "@codemirror/view": ^6.0.0
+    "@lezer/common": ^1.0.0
+  checksum: 3e00b02ea12a5bb8a07162aea006e13e6dcbf9be8535e2fd645dd75634f39d8de2d18bb6ccf302fd22bd0956e38490ccf0bafc60d44945df19e449876b09a0df
+  languageName: node
+  linkType: hard
+
 "@codemirror/lang-javascript@npm:^6.0.0":
   version: 6.0.0
   resolution: "@codemirror/lang-javascript@npm:6.0.0"
@@ -1845,6 +1866,13 @@ __metadata:
   version: 6.0.0
   resolution: "@codemirror/state@npm:6.0.0"
   checksum: 7f6286d8e8b8c5e7018f9ee81943b35324150fd15ccc77ae220b904a73e10fa480ab51a89663d956a9c2fae70b13d754da0bf535092759158cc3707743aa236f
+  languageName: node
+  linkType: hard
+
+"@codemirror/state@npm:^6.1.1":
+  version: 6.1.4
+  resolution: "@codemirror/state@npm:6.1.4"
+  checksum: ef6bc495d3b89d2f0202b6b1c0fc3e3610f8d815f4ca91f86153d6093c9b93ddbe2cfb787802d07514a7114f0b200cf2eeb54c1cd34d7e00eff774ecea97d845
   languageName: node
   linkType: hard
 
@@ -6802,18 +6830,48 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@uiw/react-codemirror@npm:^4.8.1":
-  version: 4.8.1
-  resolution: "@uiw/react-codemirror@npm:4.8.1"
+"@uiw/codemirror-extensions-basic-setup@npm:4.15.1":
+  version: 4.15.1
+  resolution: "@uiw/codemirror-extensions-basic-setup@npm:4.15.1"
   dependencies:
-    "@babel/runtime": ">=7.11.0"
+    "@codemirror/autocomplete": ^6.0.0
+    "@codemirror/commands": ^6.0.0
+    "@codemirror/language": ^6.0.0
+    "@codemirror/lint": ^6.0.0
+    "@codemirror/search": ^6.0.0
+    "@codemirror/state": ^6.0.0
+    "@codemirror/view": ^6.0.0
+  peerDependencies:
+    "@codemirror/autocomplete": ">=6.0.0"
+    "@codemirror/commands": ">=6.0.0"
+    "@codemirror/language": ">=6.0.0"
+    "@codemirror/lint": ">=6.0.0"
+    "@codemirror/search": ">=6.0.0"
+    "@codemirror/state": ">=6.0.0"
+    "@codemirror/view": ">=6.0.0"
+  checksum: 1805caa6432a2ed0c616efee4977d3e90faae85be4a75b6e5f654c8bc9dced640ad75dbe7a57d50bc84c117139b486ef0a116a8127c6f8efb44068631a48bc09
+  languageName: node
+  linkType: hard
+
+"@uiw/react-codemirror@npm:^4.15.1":
+  version: 4.15.1
+  resolution: "@uiw/react-codemirror@npm:4.15.1"
+  dependencies:
+    "@babel/runtime": ^7.18.6
+    "@codemirror/commands": ^6.1.0
+    "@codemirror/state": ^6.1.1
     "@codemirror/theme-one-dark": ^6.0.0
+    "@uiw/codemirror-extensions-basic-setup": 4.15.1
     codemirror: ^6.0.0
   peerDependencies:
     "@babel/runtime": ">=7.11.0"
+    "@codemirror/state": ">=6.0.0"
+    "@codemirror/theme-one-dark": ">=6.0.0"
+    "@codemirror/view": ">=6.0.0"
+    codemirror: ">=6.0.0"
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
-  checksum: ddaaaba4497073e79916c6712986f67b85178e9a4e6c3e6ca3aeb07f2c2fac2881afb3e7230d414f4b574f8959cbaa40a6e2ed92c05d96ae1ef9d8b90256912e
+  checksum: 49e3011e6d5455f26266b5d39d11d6e2c6505b48063882d1d4593f8c333c159fefcf0df4f743bea36d95ade1e88e19fad13571d0e3fa3b3d6cd5a43bb59f5eb7
   languageName: node
   linkType: hard
 
@@ -17036,7 +17094,7 @@ __metadata:
     "@replayio/protocol": ^0.31.0
     "@testing-library/jest-dom": ^5.16.3
     "@testing-library/react": ^13.2.0
-    "@uiw/react-codemirror": ^4.8.1
+    "@uiw/react-codemirror": ^4.15.1
     bvaughn-architecture-demo: "workspace:*"
     jest: ^28.0.2
     jest-environment-jsdom: ^28.0.2
@@ -20867,6 +20925,13 @@ __metadata:
   version: 1.4.2
   resolution: "regenerate@npm:1.4.2"
   checksum: 3317a09b2f802da8db09aa276e469b57a6c0dd818347e05b8862959c6193408242f150db5de83c12c3fa99091ad95fb42a6db2c3329bfaa12a0ea4cbbeb30cb0
+  languageName: node
+  linkType: hard
+
+"regenerator-runtime@npm:^0.13.11":
+  version: 0.13.11
+  resolution: "regenerator-runtime@npm:0.13.11"
+  checksum: 27481628d22a1c4e3ff551096a683b424242a216fee44685467307f14d58020af1e19660bf2e26064de946bad7eff28950eae9f8209d55723e2d9351e632bbb4
   languageName: node
   linkType: hard
 
