@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "@apollo/client": "^3.5.10",
-    "@auth0/auth0-react": "1.2.0",
+    "@auth0/auth0-react": "1.12.0",
     "@headlessui/react": "^1.4.3",
     "@heroicons/react": "^1.0.6",
     "@redux-devtools/app": "^2.1.4",
@@ -236,7 +236,7 @@
   ],
   "resolutions": {
     "graphql": "15.8.0",
-    "@auth0/auth0-react": "1.2.0",
+    "@auth0/auth0-react": "1.12.0",
     "react": "0.0.0-experimental-e7d0053e6-20220325",
     "react-dom": "0.0.0-experimental-e7d0053e6-20220325",
     "react-is": "18.2.0",
