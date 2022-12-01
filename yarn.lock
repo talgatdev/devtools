@@ -8540,15 +8540,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-plugin-transform-import-meta@npm:^2.1.1":
-  version: 2.1.1
-  resolution: "babel-plugin-transform-import-meta@npm:2.1.1"
+"babel-plugin-transform-import-meta@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "babel-plugin-transform-import-meta@npm:2.2.0"
   dependencies:
     "@babel/template": ^7.4.4
-    tslib: ^2.2.0
+    tslib: ^2.4.0
   peerDependencies:
     "@babel/core": ^7.10.0
-  checksum: 472dcf01db74c43a190848b7c1d8c9b3192b26d9ca715f6c3737fef501518927a3e9b94f4c8310638f6656789e0cd32f9e53566d9adfd36e8eb44f5da0b12064
+  checksum: 305b0750f957e4df3ce08e0b24359dc55fb789c96477e944d113d259a8292e7bb8d665944e04b5a690c82a8dc23f54b711a85917d80988dffe1e046e1db940ee
   languageName: node
   linkType: hard
 
@@ -20672,7 +20672,7 @@ __metadata:
     babel-jest: ^28.0.2
     babel-loader: ^8.2.4
     babel-plugin-add-react-displayname: ^0.0.5
-    babel-plugin-transform-import-meta: ^2.1.1
+    babel-plugin-transform-import-meta: ^2.2.0
     base64-arraybuffer: ^1.0.2
     bufferutil: ^4.0.6
     bvaughn-architecture-demo: "workspace:*"
@@ -23472,7 +23472,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2, tslib@npm:^2.0.0, tslib@npm:^2.0.1, tslib@npm:^2.0.3, tslib@npm:^2.1.0, tslib@npm:^2.2.0, tslib@npm:^2.3.0, tslib@npm:^2.3.1, tslib@npm:^2.4.0":
+"tslib@npm:^2, tslib@npm:^2.0.0, tslib@npm:^2.0.1, tslib@npm:^2.0.3, tslib@npm:^2.1.0, tslib@npm:^2.3.0, tslib@npm:^2.3.1, tslib@npm:^2.4.0":
   version: 2.4.0
   resolution: "tslib@npm:2.4.0"
   checksum: 8c4aa6a3c5a754bf76aefc38026134180c053b7bd2f81338cb5e5ebf96fefa0f417bff221592bf801077f5bf990562f6264fecbc42cd3309b33872cb6fc3b113
